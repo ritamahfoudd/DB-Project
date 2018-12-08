@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1086.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1087.0" prefWidth="604.0">
+         <children>
+            <Label layoutX="22.0" layoutY="14.0" text="Teacher">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="53.0" text="First Name" />
+            <Label layoutX="231.0" layoutY="53.0" text="Last Name" />
+            <TextField layoutX="23.0" layoutY="228.0" />
+            <TextField layoutX="23.0" layoutY="70.0" />
+            <TextField layoutX="231.0" layoutY="70.0" />
+            <TextField layoutX="23.0" layoutY="124.0" />
+            <Label layoutX="23.0" layoutY="107.0" text="Date of birth" />
+            <Label layoutX="231.0" layoutY="107.0" text="Phone Number " />
+            <TextField layoutX="231.0" layoutY="124.0" />
+            <TextField layoutX="23.0" layoutY="177.0" />
+            <TextField layoutX="231.0" layoutY="228.0" />
+            <Label layoutX="23.0" layoutY="160.0" text="Date Started" />
+            <Label layoutX="23.0" layoutY="211.0" text="Contract Start Date" />
+            <Label layoutX="231.0" layoutY="211.0" text="Contract End Date" />
+            <Button layoutX="24.0" layoutY="556.0" mnemonicParsing="false" text="Add Employment Record" />
+            <Button layoutX="23.0" layoutY="765.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="151.0" text="Add Degree" />
+            <Label layoutX="24.0" layoutY="360.0" prefWidth="167.0" text="Employment Record">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="23.0" layoutY="393.0" text="School Name" />
+            <Label layoutX="236.0" layoutY="445.0" prefHeight="0.0" prefWidth="28.0" text="Class" />
+            <Label layoutX="23.0" layoutY="445.0" text="Subject" />
+            <Label layoutX="236.0" layoutY="496.0" text="End Date" />
+            <Label layoutX="26.0" layoutY="496.0" text="Start Date" />
+            <Label layoutX="29.0" layoutY="610.0" text="Degree">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <TextField layoutX="24.0" layoutY="462.0" />
+            <TextField layoutX="232.0" layoutY="462.0" />
+            <TextField layoutX="24.0" layoutY="513.0" />
+            <TextField layoutX="24.0" layoutY="410.0" />
+            <TextField layoutX="232.0" layoutY="513.0" />
+            <TextField layoutX="24.0" layoutY="660.0" />
+            <TextField layoutX="232.0" layoutY="660.0" />
+            <TextField layoutX="24.0" layoutY="717.0" />
+            <TextField layoutX="232.0" layoutY="717.0" />
+            <Label layoutX="29.0" layoutY="643.0" text="University" />
+            <Label layoutX="232.0" layoutY="643.0" text="Major" />
+            <Label layoutX="29.0" layoutY="700.0" text="Degree Level" />
+            <Label layoutX="232.0" layoutY="700.0" text="Graduation Year" />
+            <TextField layoutX="24.0" layoutY="285.0" />
+            <TextField layoutX="232.0" layoutY="285.0" />
+            <Label layoutX="29.0" layoutY="268.0" text="Contract Type" AnchorPane.leftAnchor="25.0" />
+            <Label layoutX="234.0" layoutY="268.0" text="Maximum number of hours" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

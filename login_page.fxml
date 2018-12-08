@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+    <VBox layoutX="211.0" layoutY="243.0" prefHeight="106.0" prefWidth="183.0">
+        <TextField fx:id="usernameField" promptText="Username">
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+        </TextField>
+        <PasswordField fx:id="passwordField" promptText="Password">
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+        </PasswordField>
+      <Label fx:id="alertMsg" contentDisplay="RIGHT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="183.0" textFill="RED" />
+        <Button fx:id="login_btn" mnemonicParsing="false" onAction="#login" text="Login">
+            <VBox.margin>
+                <Insets left="135.0" top="10.0" />
+            </VBox.margin>
+        </Button>
+    </VBox>
+    <Label layoutX="139.0" layoutY="74.0" prefHeight="25.0" prefWidth="328.0" text="WELCOME TO MSPS BANNER SYSTEM">
+        <font>
+            <Font size="19.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="114.0" fitWidth="118.0" layoutX="244.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@res/school_logo.jpg" />
+    </ImageView>
+</Pane>
